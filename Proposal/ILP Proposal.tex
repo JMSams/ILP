@@ -22,6 +22,11 @@
 
 \usepackage[hidelinks]{hyperref}
 
+\usepackage[british]{babel}
+
+\usepackage[style=authoryear, backend=bibtex, dashed=false]{biblatex}
+\addbibresource{../ILP-References.bib}
+
 \begin{document}
 
 \pagenumbering{gobble}
@@ -30,7 +35,6 @@
 	\vspace*{\fill}
 	\centering
 	{\huge \thetitle}\\[.5cm]
-	{\Large Design Document for Visual Scripting}\\[.5cm]
 	{\large \theauthor}\\[.5cm]
 	{MSc Game Development}
 	\vspace*{\fill}
@@ -39,9 +43,16 @@
 \pagenumbering{arabic}
 \lhead{\theauthor}
 \rhead{MSc Game Development}
-\lfoot{Pentapong - Visual Scripting}
+\lfoot{Proposal - ILP}
 \rfoot{Page \thepage{}/\pageref*{LastPage}}
 
-THE PROPOSAL
+For my Individual Learning Plan I will explore how procedural algorithms can be used to create mazes and dungeons for use in both 2D and 3D games.
+
+As a starting point for this project, I have researched and implemented several maze algorithms in Unity.  These include Binary Tree, Recursive Backtracker and Kruskal algorithms, outlined by \cite{Buck2010}.
+
+%\nocite{*}
+\section{Bibliography}
+
+\printbibliography[heading=none]
 
 \end{document}
