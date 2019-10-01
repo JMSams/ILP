@@ -1,7 +1,47 @@
 \documentclass[a4paper, 12pt]{article}
 
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{lastpage}
+
+\usepackage{float}
+
+\usepackage{titling}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{}\rfoot{}
+
+\title{ILP Proposal}
+\author{Jamie M Sams (S153907)}
+\date{\today}
+
+\usepackage[hidelinks]{hyperref}
+
 \begin{document}
 
+\pagenumbering{gobble}
 
+\begin{titlepage}
+	\vspace*{\fill}
+	\centering
+	{\huge \thetitle}\\[.5cm]
+	{\Large Design Document for Visual Scripting}\\[.5cm]
+	{\large \theauthor}\\[.5cm]
+	{MSc Game Development}
+	\vspace*{\fill}
+\end{titlepage}
+
+\pagenumbering{arabic}
+\lhead{\theauthor}
+\rhead{MSc Game Development}
+\lfoot{Pentapong - Visual Scripting}
+\rfoot{Page \thepage{}/\pageref*{LastPage}}
+
+THE PROPOSAL
 
 \end{document}
